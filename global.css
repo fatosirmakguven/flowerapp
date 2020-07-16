@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-stroke: 0.45px;
+
+-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+
+text-shadow: #fff 0px 1px 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Define vars for the root elements*/
+
+:root {
+  --black: #262626;
+  --steel: #333333;
+  --light: #999999;
+  --white: #fff;
+  --snow:#F9FAFC;
+  --line:#F4F4F4;
+
+
+  --red: #FF4949;
+  --green: #13CE66;
+  --blue: #009EEB;
+  --purple: #7E5BEF;
+  --yellow: #FFC82C;
+  --pink: #FCE1DE;
+  --orange: #F75719;
+
+  --font-size-1: 3rem;
+  --font-size-2: 2.5rem;
+  --font-size-3: 2rem;
+  --font-size-4: 1.5rem;
+  --font-size-5: 1.25rem;
+  --font-size-6: 1rem;
+  --font-size-7: 0.75rem;
+
+  --font-weight-1: 300;
+  --font-weight-2: 400;
+  --font-weight-3: 500;
+  --font-weight-4: 700;
+  --font-weight-5: 900;
+
+}
+
+body {
+  background-color: var(--snow);
+  font-family: 'Roboto', sans-serif;
+}

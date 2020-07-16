@@ -1,0 +1,41 @@
+.statusBar{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0 ;
+    margin-bottom: 24px;
+    max-width: 414px;
+  }
+  
+  
+  .header{
+    display: flex;
+    margin-bottom: 24px;
+  }
+  
+  
+  .header h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--steel);
+  
+  }
+  
+  .h-arrow{
+    width: 35%;
+  }
+
+  .nav{
+      margin-bottom: 40px;
+  }
+  .nav ul, li{
+      text-decoration: none;
+      display: inline-block;
+      color: var(--light);
+  }
+
+  .nav li{
+      padding-right: 32px;
+  }
+  .nav li:nth-last-child(1){
+      padding-right: 0px;
+  }
